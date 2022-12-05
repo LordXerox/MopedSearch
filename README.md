@@ -1,11 +1,12 @@
-# Node.js and Express Hosted on Microsoft Azure Template
+# MopedSearch
 
-Dependencies: Node.js and Express
+Dependencies: Node.js, Express, MongoDB/Mongoose
 
-This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft Azure.
+Application searches Craigslist and returns listings that can be archived in a MongoDB database.
 
 Initial Usage:
 - npm install express
-- npm start
+- npm install mongodb
+- npm install node-craigslist
 
 
